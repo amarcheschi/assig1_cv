@@ -1,0 +1,7 @@
+Detector,n_features,dim,dtype,bytes_per_desc,total_bytes
+FAST+BRIEF,7363,32,uint8,32,235616
+FAST+BRISK,6968,64,uint8,64,445952
+FAST+FREAK,6175,64,uint8,64,395200
+KAZE,6111,64,float32,256,1564416
+ORB,5000,32,uint8,32,160000
+SIFT,3361,128,float32,512,1720832
