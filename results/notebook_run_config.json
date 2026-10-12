@@ -1,8 +1,24 @@
 {
-  "matching_ratio": 0.75,
+  "base_image": "hpatches-sequences-release/v_bird/1.ppm",
+  "matching_ratio": 0.8,
   "correct_thresh_px": 3.0,
+  "ransac_thresh_px": 3.0,
+  "ransac_study": [
+    1.0,
+    3.0,
+    5.0
+  ],
   "one_to_one": true,
   "opencv_version": "4.13.0",
+  "opencv_build": {
+    "opencv_version": "4.13.0",
+    "contrib": true,
+    "BRIEF": "opencv-contrib xfeatures2d",
+    "BRISK": "available",
+    "FREAK": "opencv-contrib xfeatures2d",
+    "SIFT": "available",
+    "SURF": "skipped (optional per assignment \u00a72.2; needs custom OpenCV build)"
+  },
   "image_shape_hw": [
     973,
     1068
@@ -116,6 +132,45 @@
         0.0,
         1.0
       ]
+    ]
+  },
+  "illumination_seq": [
+    "hpatches-mini/i_ajuntament"
+  ],
+  "illumination_idxs": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "photometric_base": "hpatches-mini/i_ajuntament/1.ppm",
+  "runtime_schema": [
+    "Detector",
+    "Matcher",
+    "Category",
+    "Image",
+    "t_detect_ref_ms",
+    "t_describe_ref_ms",
+    "t_detect_tgt_ms",
+    "t_describe_tgt_ms",
+    "t_match_ms",
+    "t_total_ms",
+    "device"
+  ],
+  "learned": {
+    "enabled": true,
+    "device": "cpu",
+    "sp_model": "magic-leap-community/superpoint",
+    "lg_model": "ETH-CVG/lightglue_superpoint",
+    "lg_threshold": 0.1,
+    "warps": [
+      "Rotated 45\u00b0",
+      "Translated"
+    ],
+    "pairs": [
+      "1->2",
+      "1->6"
     ]
   }
 }
