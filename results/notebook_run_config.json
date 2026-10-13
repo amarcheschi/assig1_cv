@@ -51,11 +51,11 @@
     "Rotated 45\u00b0": [
       [
         0.7071067811865476,
-        0.7071067811865476,
-        -187.60247020087184
+        0.7071067811865475,
+        -187.60247020087178
       ],
       [
-        -0.7071067811865476,
+        -0.7071067811865475,
         0.7071067811865476,
         520.087572106361
       ],
@@ -159,18 +159,6 @@
     "device"
   ],
   "learned": {
-    "enabled": true,
-    "device": "cpu",
-    "sp_model": "magic-leap-community/superpoint",
-    "lg_model": "ETH-CVG/lightglue_superpoint",
-    "lg_threshold": 0.1,
-    "warps": [
-      "Rotated 45\u00b0",
-      "Translated"
-    ],
-    "pairs": [
-      "1->2",
-      "1->6"
-    ]
+    "enabled": false
   }
 }

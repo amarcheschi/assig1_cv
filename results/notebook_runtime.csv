@@ -1,89 +1,81 @@
 Detector,Matcher,Category,Image,t_detect_ref_ms,t_describe_ref_ms,t_detect_tgt_ms,t_describe_tgt_ms,t_match_ms,device,t_total_ms
-FAST+BRIEF,BF-ratio0.8,illumination-real,1->2,0.73,3.566,0.667,3.717,6.684,cpu,15.364
-FAST+BRIEF,BF-ratio0.8,illumination-real,1->3,1.03,3.8,0.625,2.694,5.689,cpu,13.838
-FAST+BRIEF,BF-ratio0.8,illumination-real,1->4,0.714,3.579,0.924,7.825,16.651,cpu,29.693
-FAST+BRIEF,BF-ratio0.8,illumination-real,1->5,0.73,3.577,0.86,7.124,15.258,cpu,27.549
-FAST+BRIEF,BF-ratio0.8,illumination-real,1->6,0.728,3.64,0.887,7.03,15.143,cpu,27.428
-FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Combined warp,2.73,12.875,2.223,11.581,87.847,cpu,117.256
-FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.684,12.742,2.469,10.898,84.643,cpu,113.436
-FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.724,12.941,1.329,8.381,62.133,cpu,88.508
-FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,2.704,12.893,2.362,7.231,49.049,cpu,74.239
-FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Translated,2.667,12.784,2.522,11.66,86.391,cpu,116.024
-FAST+BRISK,BF-ratio0.8,illumination-real,1->2,0.717,24.89,0.66,18.772,8.302,cpu,53.341
-FAST+BRISK,BF-ratio0.8,illumination-real,1->3,0.718,24.309,0.603,13.519,4.353,cpu,43.502
-FAST+BRISK,BF-ratio0.8,illumination-real,1->4,0.743,24.358,0.99,56.255,13.29,cpu,95.636
-FAST+BRISK,BF-ratio0.8,illumination-real,1->5,0.781,24.021,0.899,49.343,12.354,cpu,87.398
-FAST+BRISK,BF-ratio0.8,illumination-real,1->6,0.992,24.358,0.911,47.836,11.683,cpu,85.78
-FAST+BRISK,BF-ratio0.8,viewpoint-synth,Combined warp,2.742,62.422,2.375,49.028,99.007,cpu,215.574
-FAST+BRISK,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.666,59.019,2.455,53.001,89.79,cpu,206.931
-FAST+BRISK,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,2.828,58.423,1.388,33.479,70.586,cpu,166.704
-FAST+BRISK,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,3.55,58.367,2.35,33.377,55.546,cpu,153.19
-FAST+BRISK,BF-ratio0.8,viewpoint-synth,Translated,4.19,57.937,2.643,50.92,94.215,cpu,209.905
-FAST+FREAK,BF-ratio0.8,illumination-real,1->2,0.725,15.608,0.993,12.268,2.592,cpu,32.186
-FAST+FREAK,BF-ratio0.8,illumination-real,1->3,1.129,8.572,0.939,8.569,4.99,cpu,24.199
-FAST+FREAK,BF-ratio0.8,illumination-real,1->4,0.964,15.527,0.896,40.947,6.053,cpu,64.387
-FAST+FREAK,BF-ratio0.8,illumination-real,1->5,0.726,15.558,0.871,35.929,5.674,cpu,58.758
-FAST+FREAK,BF-ratio0.8,illumination-real,1->6,0.719,15.761,0.881,36.962,6.041,cpu,60.364
-FAST+FREAK,BF-ratio0.8,viewpoint-synth,Combined warp,3.296,47.132,2.181,47.271,82.299,cpu,182.179
-FAST+FREAK,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.83,47.58,2.454,43.092,75.183,cpu,171.139
-FAST+FREAK,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,4.727,47.856,1.36,22.056,61.708,cpu,137.707
-FAST+FREAK,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,3.587,47.088,3.392,25.874,42.084,cpu,122.025
-FAST+FREAK,BF-ratio0.8,viewpoint-synth,Translated,3.482,47.569,2.563,35.971,75.629,cpu,165.214
-FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->2,0.718,1153.513,0.67,1028.28,7.635,cpu,2190.816
-FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->3,0.713,1155.957,0.596,882.545,7.204,cpu,2047.015
-FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->4,0.74,1158.797,0.936,2724.529,19.371,cpu,3904.373
-FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->5,0.723,1145.472,0.86,2502.292,17.988,cpu,3667.335
-FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->6,0.719,1177.259,0.874,2472.894,17.323,cpu,3669.069
-FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Combined warp,2.742,4099.02,2.212,3690.162,88.5,cpu,7882.636
-FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.785,4370.479,2.469,3587.292,82.011,cpu,8045.036
-FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,4.011,4075.024,1.418,2561.378,60.155,cpu,6701.986
-FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,4.008,4127.994,2.4,2152.394,51.038,cpu,6337.834
-FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Translated,2.657,4269.098,2.59,3826.6,90.075,cpu,8191.02
-FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->2,0.733,1159.19,0.661,1024.415,7.572,cpu,2192.571
-FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->3,0.716,1151.692,0.594,881.282,6.747,cpu,2041.031
-FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->4,0.722,1160.191,0.929,2706.273,19.217,cpu,3887.332
-FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->5,0.719,1151.695,0.925,2498.066,17.97,cpu,3669.375
-FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->6,0.743,1165.309,0.907,2483.395,17.546,cpu,3667.9
-FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Combined warp,2.685,4109.025,2.19,3786.085,88.932,cpu,7988.917
-FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.657,4290.718,2.473,3599.99,83.209,cpu,7979.047
-FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.488,4101.977,1.383,2568.254,60.214,cpu,6735.316
-FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,2.675,4105.748,2.436,2145.658,51.174,cpu,6307.691
-FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Translated,2.669,4112.885,2.566,3715.177,90.355,cpu,7923.652
-KAZE,BF-ratio0.8,illumination-real,1->2,173.047,0.0,180.734,0.0,0.531,cpu,354.312
-KAZE,BF-ratio0.8,illumination-real,1->3,178.246,0.0,166.055,0.0,1.397,cpu,345.698
-KAZE,BF-ratio0.8,illumination-real,1->4,172.187,0.0,205.563,0.0,0.489,cpu,378.239
-KAZE,BF-ratio0.8,illumination-real,1->5,253.882,0.0,178.793,0.0,0.639,cpu,433.314
-KAZE,BF-ratio0.8,illumination-real,1->6,194.12,0.0,189.774,0.0,0.732,cpu,384.626
-KAZE,BF-ratio0.8,viewpoint-synth,Combined warp,547.757,0.0,974.752,0.0,52.15,cpu,1574.659
-KAZE,BF-ratio0.8,viewpoint-synth,Rotated 45°,856.149,0.0,901.831,0.0,97.261,cpu,1855.241
-KAZE,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,567.04,0.0,1108.628,0.0,27.346,cpu,1703.014
-KAZE,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,597.051,0.0,566.964,0.0,57.749,cpu,1221.764
-KAZE,BF-ratio0.8,viewpoint-synth,Translated,611.931,0.0,657.786,0.0,69.228,cpu,1338.945
-ORB,BF-ratio0.8,illumination-real,1->2,12.357,0.0,15.492,0.0,13.295,cpu,41.144
-ORB,BF-ratio0.8,illumination-real,1->3,11.177,0.0,9.147,0.0,9.157,cpu,29.481
-ORB,BF-ratio0.8,illumination-real,1->4,12.016,0.0,12.185,0.0,10.956,cpu,35.157
-ORB,BF-ratio0.8,illumination-real,1->5,11.176,0.0,15.144,0.0,11.38,cpu,37.7
-ORB,BF-ratio0.8,illumination-real,1->6,11.279,0.0,10.0,0.0,11.577,cpu,32.856
-ORB,BF-ratio0.8,viewpoint-synth,Combined warp,39.95,0.0,42.356,0.0,70.008,cpu,152.314
-ORB,BF-ratio0.8,viewpoint-synth,Rotated 45°,40.513,0.0,45.032,0.0,70.137,cpu,155.682
-ORB,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,45.529,0.0,37.471,0.0,70.604,cpu,153.604
-ORB,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,45.439,0.0,39.288,0.0,70.418,cpu,155.145
-ORB,BF-ratio0.8,viewpoint-synth,Translated,44.271,0.0,52.389,0.0,70.42,cpu,167.08
-SIFT,BF-ratio0.8,illumination-real,1->2,88.495,0.0,90.747,0.0,3.569,cpu,182.811
-SIFT,BF-ratio0.8,illumination-real,1->3,88.291,0.0,100.503,0.0,2.292,cpu,191.086
-SIFT,BF-ratio0.8,illumination-real,1->4,89.122,0.0,89.246,0.0,1.539,cpu,179.907
-SIFT,BF-ratio0.8,illumination-real,1->5,97.573,0.0,84.041,0.0,3.02,cpu,184.634
-SIFT,BF-ratio0.8,illumination-real,1->6,108.286,0.0,103.97,0.0,2.972,cpu,215.228
-SIFT,BF-ratio0.8,viewpoint-synth,Combined warp,370.31,0.0,661.894,0.0,46.181,cpu,1078.385
-SIFT,BF-ratio0.8,viewpoint-synth,Rotated 45°,344.292,0.0,473.592,0.0,48.734,cpu,866.618
-SIFT,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,332.128,0.0,375.175,0.0,31.208,cpu,738.511
-SIFT,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,322.225,0.0,320.647,0.0,36.743,cpu,679.615
-SIFT,BF-ratio0.8,viewpoint-synth,Translated,320.798,0.0,322.307,0.0,52.147,cpu,695.252
-SuperPoint+NN,NN-crosscheck,viewpoint-synth,Rotated 45°,7315.324,0.0,900.059,0.0,14.133,cpu,8229.516
-SP+LightGlue,LightGlue,viewpoint-synth,Rotated 45°,7315.324,0.0,900.059,0.0,2664.252,cpu,10879.635
-SuperPoint+NN,NN-crosscheck,viewpoint-synth,Translated,7315.324,0.0,919.584,0.0,15.059,cpu,8249.967
-SP+LightGlue,LightGlue,viewpoint-synth,Translated,7315.324,0.0,919.584,0.0,2026.217,cpu,10261.125
-SuperPoint+NN,NN-crosscheck,illumination-real,1->2,922.731,0.0,885.398,0.0,3.661,cpu,1811.79
-SP+LightGlue,LightGlue,illumination-real,1->2,922.731,0.0,885.398,0.0,1924.239,cpu,3732.368
-SuperPoint+NN,NN-crosscheck,illumination-real,1->6,922.731,0.0,892.848,0.0,2.534,cpu,1818.113
-SP+LightGlue,LightGlue,illumination-real,1->6,922.731,0.0,892.848,0.0,1889.71,cpu,3705.289
+FAST+BRIEF,BF-ratio0.8,illumination-real,1->2,1.106,4.531,0.949,3.961,5.914,cpu,16.461
+FAST+BRIEF,BF-ratio0.8,illumination-real,1->3,1.055,4.156,0.839,2.978,5.067,cpu,14.095
+FAST+BRIEF,BF-ratio0.8,illumination-real,1->4,0.966,3.989,1.216,8.775,14.93,cpu,29.876
+FAST+BRIEF,BF-ratio0.8,illumination-real,1->5,0.922,3.824,1.1,7.839,11.54,cpu,25.225
+FAST+BRIEF,BF-ratio0.8,illumination-real,1->6,0.919,3.717,1.085,7.465,12.343,cpu,25.529
+FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Combined warp,4.003,15.436,2.908,12.367,77.446,cpu,112.16
+FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Rotated 45°,3.23,12.6,2.751,10.005,65.823,cpu,94.409
+FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.983,14.907,1.794,8.694,51.511,cpu,80.889
+FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,4.176,15.622,3.151,7.358,47.387,cpu,77.694
+FAST+BRIEF,BF-ratio0.8,viewpoint-synth,Translated,3.974,15.182,3.307,12.367,75.331,cpu,110.161
+FAST+BRISK,BF-ratio0.8,illumination-real,1->2,1.098,15.509,0.857,13.035,4.155,cpu,34.654
+FAST+BRISK,BF-ratio0.8,illumination-real,1->3,0.885,12.871,0.668,8.612,2.877,cpu,25.913
+FAST+BRISK,BF-ratio0.8,illumination-real,1->4,0.76,11.701,0.925,25.714,8.308,cpu,47.408
+FAST+BRISK,BF-ratio0.8,illumination-real,1->5,0.747,11.219,0.851,23.277,7.587,cpu,43.681
+FAST+BRISK,BF-ratio0.8,illumination-real,1->6,0.719,10.904,0.842,22.227,8.153,cpu,42.845
+FAST+BRISK,BF-ratio0.8,viewpoint-synth,Combined warp,3.662,49.774,2.253,39.208,70.008,cpu,164.905
+FAST+BRISK,BF-ratio0.8,viewpoint-synth,Rotated 45°,3.573,47.833,2.439,35.42,61.39,cpu,150.655
+FAST+BRISK,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.507,49.227,1.384,27.945,50.713,cpu,132.776
+FAST+BRISK,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,4.005,52.167,2.45,23.082,36.412,cpu,118.116
+FAST+BRISK,BF-ratio0.8,viewpoint-synth,Translated,3.807,51.209,2.653,38.78,66.345,cpu,162.794
+FAST+FREAK,BF-ratio0.8,illumination-real,1->2,1.045,6.136,0.917,6.126,2.09,cpu,16.314
+FAST+FREAK,BF-ratio0.8,illumination-real,1->3,0.955,5.388,0.758,4.068,1.489,cpu,12.658
+FAST+FREAK,BF-ratio0.8,illumination-real,1->4,0.881,5.027,1.079,13.901,4.32,cpu,25.208
+FAST+FREAK,BF-ratio0.8,illumination-real,1->5,0.795,4.639,0.934,11.852,4.105,cpu,22.325
+FAST+FREAK,BF-ratio0.8,illumination-real,1->6,0.762,4.45,0.904,11.519,5.174,cpu,22.809
+FAST+FREAK,BF-ratio0.8,viewpoint-synth,Combined warp,3.794,28.784,2.494,24.179,59.58,cpu,118.831
+FAST+FREAK,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.743,22.481,2.285,18.961,48.586,cpu,95.056
+FAST+FREAK,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.631,28.518,1.515,18.498,45.699,cpu,97.861
+FAST+FREAK,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,3.962,30.171,2.703,13.853,29.204,cpu,79.893
+FAST+FREAK,BF-ratio0.8,viewpoint-synth,Translated,3.748,28.278,2.864,22.271,52.806,cpu,109.967
+FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->2,1.071,809.028,0.549,735.062,4.877,cpu,1550.587
+FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->3,0.738,826.368,0.514,803.198,5.15,cpu,1635.968
+FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->4,0.788,841.744,0.757,1839.403,11.408,cpu,2694.1
+FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->5,0.719,807.074,0.719,1796.748,10.619,cpu,2615.879
+FAST+cBRIEF-gaussian,BF-ratio0.8,illumination-real,1->6,0.694,798.477,0.692,1785.67,15.507,cpu,2601.04
+FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Combined warp,3.492,2793.886,1.852,2486.165,69.538,cpu,5354.933
+FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.841,2960.659,2.07,2456.668,60.916,cpu,5483.154
+FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.364,2807.489,1.171,1765.732,45.276,cpu,4623.032
+FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,3.979,2801.412,1.892,1452.745,35.172,cpu,4295.2
+FAST+cBRIEF-gaussian,BF-ratio0.8,viewpoint-synth,Translated,3.786,3013.588,2.175,2514.661,75.691,cpu,5609.901
+FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->2,1.013,768.586,0.514,687.345,4.207,cpu,1461.665
+FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->3,0.602,771.487,0.464,588.456,3.633,cpu,1364.642
+FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->4,0.602,771.848,0.725,1790.386,10.92,cpu,2574.481
+FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->5,0.679,795.315,0.705,1751.67,11.875,cpu,2560.244
+FAST+cBRIEF-uniform,BF-ratio0.8,illumination-real,1->6,0.747,818.968,0.732,1708.237,10.862,cpu,2539.546
+FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Combined warp,3.483,2716.496,1.771,2417.25,63.99,cpu,5202.99
+FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Rotated 45°,2.964,2767.99,2.076,2300.074,63.251,cpu,5136.355
+FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,3.243,2715.193,1.078,1687.17,41.485,cpu,4448.169
+FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,3.988,2777.323,1.882,1449.454,33.808,cpu,4266.455
+FAST+cBRIEF-uniform,BF-ratio0.8,viewpoint-synth,Translated,3.796,2777.417,2.079,2500.91,67.304,cpu,5351.506
+KAZE,BF-ratio0.8,illumination-real,1->2,119.588,0.0,104.982,0.0,0.47,cpu,225.04
+KAZE,BF-ratio0.8,illumination-real,1->3,108.28,0.0,110.131,0.0,0.638,cpu,219.049
+KAZE,BF-ratio0.8,illumination-real,1->4,107.276,0.0,104.21,0.0,0.429,cpu,211.915
+KAZE,BF-ratio0.8,illumination-real,1->5,104.687,0.0,106.801,0.0,0.309,cpu,211.797
+KAZE,BF-ratio0.8,illumination-real,1->6,109.952,0.0,104.218,0.0,0.309,cpu,214.479
+KAZE,BF-ratio0.8,viewpoint-synth,Combined warp,458.33,0.0,493.198,0.0,56.741,cpu,1008.269
+KAZE,BF-ratio0.8,viewpoint-synth,Rotated 45°,458.016,0.0,453.396,0.0,68.929,cpu,980.341
+KAZE,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,455.26,0.0,497.03,0.0,25.74,cpu,978.03
+KAZE,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,471.126,0.0,453.385,0.0,62.077,cpu,986.588
+KAZE,BF-ratio0.8,viewpoint-synth,Translated,459.384,0.0,466.087,0.0,71.343,cpu,996.814
+ORB,BF-ratio0.8,illumination-real,1->2,7.659,0.0,7.501,0.0,6.448,cpu,21.608
+ORB,BF-ratio0.8,illumination-real,1->3,7.254,0.0,5.621,0.0,4.653,cpu,17.528
+ORB,BF-ratio0.8,illumination-real,1->4,7.032,0.0,5.506,0.0,5.42,cpu,17.958
+ORB,BF-ratio0.8,illumination-real,1->5,6.945,0.0,4.928,0.0,4.03,cpu,15.903
+ORB,BF-ratio0.8,illumination-real,1->6,6.676,0.0,5.317,0.0,4.626,cpu,16.619
+ORB,BF-ratio0.8,viewpoint-synth,Combined warp,23.348,0.0,19.607,0.0,34.154,cpu,77.109
+ORB,BF-ratio0.8,viewpoint-synth,Rotated 45°,20.228,0.0,19.034,0.0,33.025,cpu,72.287
+ORB,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,23.807,0.0,17.729,0.0,34.298,cpu,75.834
+ORB,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,23.662,0.0,20.591,0.0,34.951,cpu,79.204
+ORB,BF-ratio0.8,viewpoint-synth,Translated,23.291,0.0,20.962,0.0,33.747,cpu,78.0
+SIFT,BF-ratio0.8,illumination-real,1->2,29.888,0.0,27.604,0.0,1.992,cpu,59.484
+SIFT,BF-ratio0.8,illumination-real,1->3,30.18,0.0,27.196,0.0,1.095,cpu,58.471
+SIFT,BF-ratio0.8,illumination-real,1->4,28.317,0.0,24.215,0.0,0.876,cpu,53.408
+SIFT,BF-ratio0.8,illumination-real,1->5,25.694,0.0,23.332,0.0,0.661,cpu,49.687
+SIFT,BF-ratio0.8,illumination-real,1->6,26.495,0.0,23.302,0.0,0.795,cpu,50.592
+SIFT,BF-ratio0.8,viewpoint-synth,Combined warp,103.815,0.0,119.082,0.0,26.543,cpu,249.44
+SIFT,BF-ratio0.8,viewpoint-synth,Rotated 45°,100.674,0.0,115.086,0.0,29.468,cpu,245.228
+SIFT,BF-ratio0.8,viewpoint-synth,Scaled 0.5x,104.282,0.0,95.459,0.0,17.307,cpu,217.048
+SIFT,BF-ratio0.8,viewpoint-synth,Scaled 1.5x,106.878,0.0,96.526,0.0,21.535,cpu,224.939
+SIFT,BF-ratio0.8,viewpoint-synth,Translated,106.321,0.0,99.636,0.0,33.252,cpu,239.209
